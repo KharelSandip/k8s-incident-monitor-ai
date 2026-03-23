@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: incident-monitor-deploymemt
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: incident-monitor-container
+  template:
+    metadata:
+      labels:
+        app: incident-monitor-container
+    spec:
+      containers:
+        - name: incident-monitor-app
+          image: sandipkhl/k8-moniot-app:v2
+          ports:
+            - containerPort: 5000
