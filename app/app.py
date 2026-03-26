@@ -3,7 +3,7 @@ import logging
 
 app = Flask(__name__)
 
-# Configure logging to see requests in Docker logs
+# Configuring logging to see requests in Docker logs
 logging.basicConfig(level=logging.INFO)
 
 @app.route('/')
