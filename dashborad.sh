@@ -2,14 +2,16 @@
 
 tmux new -d -s mysession
 
-tmux send-keys -t 0.0 "echo hello word 0 "
+tmux send-keys -t 0.0 
 
 tmux split-window -h -t mysession 
 
-tmux send-keys -t 0.1 "echo hello world 1 "
+tmux send-keys -t 0.1 "kubectl port-forward --address 0.0.0.0 service/incident-monitor-service 8080:80" Enter
 
 tmux split-window -v -t mysession 
 
-tmux send-keys -t 0.2 "echo hellow world 2"
+tmux send-keys -t 0.2 "python3 monitor/pod_monitor.py && python3 onitor/health_check.py" Enter
+
+sleep 0.5
 
 tmux attach -t mysession

@@ -1,0 +1,20 @@
+2026-03-29 15:31:52 ALERT: ERROR:werkzeug:127.0.0.1 - - [29/Mar/2026 22:13:29] code 400, message Bad request version ('g@Qx9½\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2026-03-29 15:31:52 ALERT: ERROR:werkzeug:127.0.0.1 - - [29/Mar/2026 22:13:29] code 400, message Bad request syntax ('\x16\x03\x01\x07a\x01\x00\x07]\x03\x03ÑF\x19û')
+2026-03-29 15:31:52 ALERT: ERROR:werkzeug:127.0.0.1 - - [29/Mar/2026 22:13:29] code 400, message Bad request version ('Ñþ\x94ù\x17á¡ß:ý\x02\x97ðy;íc¥r<\x86Ew;{_\x95\x1a\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2026-03-29 15:32:59 ALERT: ERROR:app:Intentional 500 error triggered
+2026-03-29 15:33:46 ALERT: ERROR:app:Intentional 500 error triggered
+2026-03-29 15:33:56 ALERT: ERROR:app:Intentional 500 error triggered
+2026-03-29 15:34:01 ALERT: ERROR:app:Intentional 500 error triggered
+2026-03-29 15:34:04 ALERT: ERROR:app:Intentional 500 error triggered
+2026-03-29 15:34:06 ALERT: ERROR:app:Intentional 500 error triggered
+2026-03-29 15:36:19 ALERT: ERROR:app:Intentional 500 error triggered
+2026-03-29 15:36:19 ALERT: ERROR:app:Intentional 500 error triggered
+2026-03-29 15:36:19 ALERT: ERROR:app:Intentional 500 error triggered
+2026-03-29 15:36:19 ALERT: ERROR:app:Intentional 500 error triggered
+2026-03-29 15:36:19 ALERT: ERROR:app:Intentional 500 error triggered
+2026-03-29 15:37:25 ALERT: ERROR:app:Intentional 500 error triggered
+2026-03-29 15:37:25 ALERT: ERROR:app:Intentional 500 error triggered
+2026-03-29 15:37:25 ALERT: ERROR:app:Intentional 500 error triggered
+2026-03-29 15:37:25 ALERT: ERROR:app:Intentional 500 error triggered
+2026-03-29 15:37:25 ALERT: ERROR:app:Intentional 500 error triggered
+2026-03-29 15:37:48 ALERT: ERROR:app:Intentional 500 error triggered

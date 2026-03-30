@@ -36,9 +36,9 @@ Analyze this incident alert:
 {alert_text}
 
 Give your answer in this format:
-1. What happened
-2. Possible cause
-3. Suggested fix
+1. What happened and what casue the issue
+2. What is the suggested fix 
+3. What is the quick fix for now
 
 Keep the answer short, clear, and practical.
 """

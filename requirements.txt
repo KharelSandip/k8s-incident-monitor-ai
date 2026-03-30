@@ -4,3 +4,4 @@ os
 subprocess
 datetime
 openai
+requests
