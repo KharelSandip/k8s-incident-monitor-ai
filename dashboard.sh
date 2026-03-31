@@ -10,7 +10,7 @@ tmux send-keys -t 0.1 "kubectl port-forward --address 0.0.0.0 service/incident-m
 
 tmux split-window -v -t mysession 
 
-tmux send-keys -t 0.2 "python3 monitor/pod_monitor.py && python3 onitor/health_check.py" Enter
+tmux send-keys -t 0.2 "python3 monitor/pod_monitor.py && python3 monitor/health_check.py" Enter
 
 sleep 0.5
 
